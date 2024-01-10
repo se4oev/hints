@@ -4,7 +4,7 @@
 
 <h3>Kerio control vpnclient</h3>
 <h4>Настройка kerio-control-vpnclient</h4>
-dpkg-reconfigure kerio-control-vpnclient:
+dpkg-reconfigure kerio-control-vpnclient 
 vi /etc/kerio-kvc.conf
 
 <h4>Скрипт для запуска kerio и исправления ошибки связанной с тем, что не прописывается MAC адрес для устройства</h4>
