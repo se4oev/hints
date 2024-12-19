@@ -67,3 +67,13 @@ CMD [ "python", "my_app.py" ] # Выполнение команд
 ```
 
 `docker build . -t my-python-app` - создание образа из Docker-файла расположенного в текущей папке (по пути .) с названием `my-python-app`  
+
+## docker-compose
+
+### up
+
+`docker-compose up` - запускает контейнеры, указанные в docker-compose.yaml
+
+### down
+
+`docker-compose down` - останавливает контейнеры, указанные в docker-compose.yaml
