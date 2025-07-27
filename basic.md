@@ -15,6 +15,8 @@
 
 `whoami` - выводит логин текущего пользователя  
 `echo $SHELL` - выводит путь к текущей оболочке (shell)  
+`hostname` - возвращает имя хоста  
+`hostname -i` - возвращает ip-адрес
 
 ### Навигация
 
@@ -61,3 +63,13 @@
 `head -10 {filename}` - выведет первые 10 строк  
 `tail {filename}` - вывод конца (хвост) файла  
 `tail -5 {filename}` - выведет последние 5 строк  
+
+### Архивирование  
+
+`tar` - утилита для создания tar-архивов
+`tar -cf file.tar.gz file.txt` - упакует файл file.txt в архив file.tar.gz без сжатия  
+`tar -zcf file_zipped.tar.gz file.txt` - упакует файл file.txt в архив file_zipped.tar.gz с сжатием  
+`tar -xf file_zipper.tar.gz` - распакует файл в текущую папку  
+`tar -tvf file_zipped.tar.gz` - просмотр содержимого без извлечения  
+`zip zipped_file.zip *.txt` - добавит в zip-архив все файлы с расширением `txt`  
+`unzip zipped_file.zip` - разархивирование zip-файла  
