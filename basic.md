@@ -99,4 +99,6 @@
 `deluser {username} {group}` - удаление пользователя из группы  
 `deluser -r {username}` - удаление пользователя вместе с домашним каталогом и `mail spool`  
 
-
+`groupadd {group}` - добавление группы  
+`addgroup` - альтернативная обёртка для `groupadd`  
+`groupdel {group}` - удаление группы  
